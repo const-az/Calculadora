@@ -27,10 +27,14 @@ function clearElement() {
 
 // SHOW RESULT
 function calculateResult() {
-	var result = eval(document.getElementById('inputwindow').value);
-	if(result !== undefined){
-	document.getElementById('outputwindow').value = result;
-	}
+  try {
+    var result = eval(document.getElementById('inputwindow').value);
+    if(result !== undefined){
+      document.getElementById('outputwindow').value = result;
+    }
+  } catch (error) {
+    document.getElementById('outputwindow').value = 'SynError';
+  }
 }
 
 // RESET

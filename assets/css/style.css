@@ -10,8 +10,8 @@ body{
 }
 
 #calculator{
-  width: 335px;
-  height: 600px;
+  width: 250px;
+  height: 470px;
   border-radius: 50px;
   background-color: var(--lila);
   position: absolute;
@@ -25,18 +25,18 @@ body{
 
 /* INPUTS */
 .calculator__windows{
-  width: 315px;
+  width: 230px;
   border-radius: 40px 40px 10px 10px;
   margin: 10px;
   margin-bottom: 25px;
-  height: 150px;
+  height: 120px;
   background-color: var(--light);
   padding: 20px;
   box-sizing: border-box;
 }
 
 .calculator__windows #inputwindow{
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 16px;
   font-weight: lighter;
 }
@@ -47,7 +47,8 @@ body{
 }
 
 .calculator__windows #outputwindow,.calculator__windows #inputwindow{
-  width: 275px;
+  width: 200px;
+  margin: 0 2,5px;
   background-color: inherit;
   color: var(--purple);
   border: none;
@@ -58,9 +59,9 @@ body{
 /* BUTTONS */
 .calculator__buttons button{
   font-family: 'Rubik', sans-serif;
-  width: 60px;
-  height: 60px;
-  margin: 10px;
+  width: 50px;
+  height: 50px;
+  margin: 4px;
   box-sizing: border-box;
   border-radius: 50%;
   border-color: var(--purple);
@@ -73,6 +74,6 @@ body{
 .calculator__buttons #equal{
   background-color: var(--purple);
   color: var(--light);
-  width: 140px;
+  width: 108px;
   border-radius: 30px;
 }
